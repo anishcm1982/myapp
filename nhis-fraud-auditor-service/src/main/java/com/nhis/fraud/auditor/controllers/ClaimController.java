@@ -19,7 +19,12 @@ import com.nhis.fraud.auditor.services.ClaimUploadService;
 
 @RestController
 @RequestMapping("/api/claims")
-@CrossOrigin("*")
+//@CrossOrigin("*")
+//@CrossOrigin(
+//	    origins = "https://nhis-fraud-auditor-ui.vercel.app",
+//	    allowedHeaders = "*",
+//	    allowCredentials = "true"
+//	)
 public class ClaimController {
 
     @Autowired
